@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Design Studio by Komal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="logo">Design Studio</a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="tel:1234567890"><i class="fas fa-phone"></i></a>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <h2 class="section-title">Our Portfolio</h2>
+    <p class="section-subtitle">Explore a collection of our finest work, showcasing a blend of style and function.</p>
+  </div>
+
+  <!-- Gallery Content (will be populated by JavaScript) -->
+  <section class="gallery"></section>
+
+  <!-- Lightbox Structure -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view">
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Design Studio by Komal</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+      </nav>
+      <div class="footer-social">
+        <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="tel:1234567890"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2024 Design Studio by Komal. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- Link to our new JavaScript file -->
+  <script src="gallery.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
