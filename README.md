@@ -12,17 +12,17 @@ A modern and elegant **Interior Design Website** created for a client who is a p
 - **CSS3**
 - **AI-assisted design** (for structure and layout suggestions)
 
-## 🎨 Purpose
+## Purpose
 This project was created to showcase a client’s interior design portfolio 
 
-## 🔗 Live Demo
+## Live Demo
 The website is deployed and live on **Netlify**.  
-👉 [View the Live Website](https://design-studio-414.netlify.app/)
+[View the Live Website](https://design-studio-414.netlify.app/)
 
-## ⚠️ Notes
+## Notes
 - All gallery images have been replaced with placeholder visuals to maintain client privacy.  
 - Personal contact information has been replaced with placeholders.  
 
-## 👩‍💻 Developer
+## Developer
 **Created by:** Pranita N.  
 Developed using **HTML**, **CSS**, and **AI tools** for design and content assistance.
